@@ -11,7 +11,7 @@ const server = http.Server(app);
 setupWebSocket(server);
 
 mongoose.connect(
-  'mongodb+srv://Jawbreaker:BhsZU445nlAMJhoF@cluster0.nyojz.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority',
+  'mongodb+srv://Jawbreaker:<password>@cluster0.nyojz.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
